@@ -6,7 +6,7 @@
 
 @section('content')
   <div class="container">
-    <div class="commitment text-center py-5 px-3">
+    <div class="commitment text-center px-3">
       <h2>About Us</h2>
       <div class="row align-items-center flex-column-reverse flex-lg-row pb-5 flex-sm-row">
         <div class="col-sm">

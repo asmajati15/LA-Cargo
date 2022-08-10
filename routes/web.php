@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('user/home');
 });
 
+Route::get('/shipping-rate', function () {
+    return view('user/shipping');
+});
+
 Route::get('/services', function () {
     return view('user/services');
 });
@@ -27,4 +31,9 @@ Route::get('/about', function () {
 
 Route::get('/information', function () {
     return view('user/information');
+});
+
+Route::get('/test', function ()
+{
+    return view('user/test');
 });
